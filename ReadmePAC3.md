@@ -35,6 +35,7 @@ COMPROVACIÓ
 ORDRE: /.hola
 
 ### Imatge comprovació Hola Món
+https://github.com/EloiPomar/Unitat4EDD/blob/master/hola.png
 
 AFEGIR AL TOTS ELS ARXIUS EXCEPTE HOLA.C
 ORDRES: echo "*.c" >> .gitignore
@@ -48,6 +49,7 @@ ORDRE: git add .
 
 
 ### Imatge Comprovació commit 1  
+https://github.com/EloiPomar/Unitat4EDD/blob/master/comprobaci%C3%B3n1commit.png
 
 ## SEGONA PART - TODO 8
 
@@ -114,11 +116,10 @@ ORDRE: gcc -Wall -g calc.c -o calc.exe
 COMPROVAR LA COMPILACIÓ
 ORDRE: ./calc.exe
 ### Imatge Comprovació Compilació calc.exe
+https://github.com/EloiPomar/Unitat4EDD/blob/master/comprobaci%C3%B3ncalc.png
 
 COMMIT 2
 ORDRE: git commit -am "PAC 3 EDD, Makefile segona part"
-
-### Imatge Commit 2
 
 ## TERCERA PART -TODO 10
 
@@ -165,6 +166,7 @@ ORDRE:gcc -Wall -g -c calc.c -o calc.o
 ORDRE: gcc -Wall -g calcula.c calc.o -o calcula.exe
 
 ## Imatge Comprovació Compilació Calcula
+https://github.com/EloiPomar/Unitat4EDD/blob/master/comprovaci%C3%B3compilacionscalcula.png
 
 CREAR MAKEFILE
 ORDRE: nano Makefile
@@ -201,8 +203,15 @@ targz: clean
 .PHONY: install
 install: dist
         sudo cp -r ..dist/*/
+###Imatge comprovació Makefile
+https://github.com/EloiPomar/Unitat4EDD/blob/master/comprovaciomakefile.png
+
 
 COMMIT 3
 ORDRE: git commit -am "PAC 3 EDD, Makefile tercera part"
 
 ### Imatge Comprovació 3er commit
+https://github.com/EloiPomar/Unitat4EDD/blob/master/comprovacio3commit.png
+
+En resum, l'arxiu Makefile ens permet agilitzar les tasques de programació.
+
